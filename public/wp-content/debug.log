@@ -102,3 +102,4 @@ Stack trace:
 [17-Oct-2018 07:22:40 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
 [17-Oct-2018 07:22:46 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
 [17-Oct-2018 07:25:39 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 08:37:40 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
