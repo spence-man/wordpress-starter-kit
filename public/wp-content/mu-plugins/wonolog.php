@@ -1,0 +1,2 @@
+<?php
+Inpsyde\Wonolog\bootstrap();
