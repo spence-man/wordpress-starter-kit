@@ -10,3 +10,4 @@ content/wonolog/*
 public/wp-config.php
 wp-config-sample.php
 wp-security-keys.php
+db/base-install-dump.sql
