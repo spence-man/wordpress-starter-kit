@@ -26,5 +26,5 @@ Backup Database
 
 #### Troubleshoot
 
-(http://laurenpittenger.com/wpcli-error-establishing-database-connection-mamp/)[wp cli error connection]
+- [wp cli error connection](http://laurenpittenger.com/wpcli-error-establishing-database-connection-mamp/)
 
