@@ -1,2 +1,12 @@
 vendor/
+
+# Wordpress files #
+###################
+readme.html
+license.txt
+content/uploads/*
+content/upgrade/*
+content/wonolog/*
 public/wp-config.php
+wp-config-sample.php
+wp-security-keys.php
