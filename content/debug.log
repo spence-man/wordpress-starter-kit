@@ -1,0 +1,108 @@
+[17-Oct-2018 06:49:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_vars() in /Applications/MAMP/htdocs/public/wp-admin/options.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php(4): include()
+#1 /Applications/MAMP/htdocs/public/wp-settings.php(426): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/public/wp-config.php(46): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/public/wp-load.php(37): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/public/wp-admin/admin.php(31): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/public/wp-admin/customize.php(13): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/public/wp-admin/options.php on line 25
+[17-Oct-2018 06:50:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_vars() in /Applications/MAMP/htdocs/public/wp-admin/options.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php(4): include()
+#1 /Applications/MAMP/htdocs/public/wp-settings.php(426): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/public/wp-config.php(46): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/public/wp-load.php(37): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/public/wp-admin/admin.php(31): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/public/wp-admin/themes.php(10): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/public/wp-admin/options.php on line 25
+[17-Oct-2018 06:51:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_vars() in /Applications/MAMP/htdocs/public/wp-admin/options.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php(4): include()
+#1 /Applications/MAMP/htdocs/public/wp-settings.php(426): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/public/wp-config.php(46): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/public/wp-load.php(37): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/public/wp-admin/admin.php(31): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/public/wp-admin/themes.php(10): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/public/wp-admin/options.php on line 25
+[17-Oct-2018 06:51:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_vars() in /Applications/MAMP/htdocs/public/wp-admin/options.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php(4): include()
+#1 /Applications/MAMP/htdocs/public/wp-settings.php(426): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/public/wp-config.php(46): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/public/wp-load.php(37): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/public/wp-admin/admin.php(31): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/public/wp-admin/themes.php(10): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/public/wp-admin/options.php on line 25
+[17-Oct-2018 06:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_reset_vars() in /Applications/MAMP/htdocs/public/wp-admin/options.php:25
+Stack trace:
+#0 /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php(4): include()
+#1 /Applications/MAMP/htdocs/public/wp-settings.php(426): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/public/wp-config.php(46): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/public/wp-load.php(37): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/public/wp-admin/admin.php(31): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/public/wp-admin/themes.php(10): require_once('/Applications/M...')
+#6 {main}
+  thrown in /Applications/MAMP/htdocs/public/wp-admin/options.php on line 25
+[17-Oct-2018 06:54:39 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:04 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:10 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:28 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:28 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:52 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:52 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:55:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_awesome_page_display' not found or invalid function name in /Applications/MAMP/htdocs/public/wp-includes/class-wp-hook.php on line 286
+[17-Oct-2018 06:56:59 UTC] PHP Notice:  wp_enqueue_script was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 4161
+[17-Oct-2018 06:56:59 UTC] PHP Notice:  wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 4161
+[17-Oct-2018 06:56:59 UTC] PHP Notice:  wp_enqueue_style was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 4161
+[17-Oct-2018 06:56:59 UTC] PHP Notice:  wp_enqueue_script was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 4161
+[17-Oct-2018 06:56:59 UTC] PHP Notice:  wp_enqueue_script was called <strong>incorrectly</strong>. Scripts and styles should not be registered or enqueued until the <code>wp_enqueue_scripts</code>, <code>admin_enqueue_scripts</code>, or <code>login_enqueue_scripts</code> hooks. Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 3.3.0.) in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 4161
+[17-Oct-2018 06:56:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/public/wp-includes/formatting.php:5100) in /Applications/MAMP/htdocs/public/wp-admin/includes/misc.php on line 1126
+[17-Oct-2018 06:57:55 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:57:55 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:00 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:00 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:02 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:02 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:07 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:07 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:07 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:58:07 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 06:58:10 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:10 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/public/wp-content/themes/demoThemeoptions.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/functions.php on line 4
+[17-Oct-2018 06:58:32 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'my_awesome_page_display' not found or invalid function name in /Applications/MAMP/htdocs/public/wp-includes/class-wp-hook.php on line 286
+[17-Oct-2018 07:02:43 UTC] PHP Warning:  include(/Applications/MAMP/htdocs/public/wp-content/themes/demoThemedemo-options-view.php): failed to open stream: No such file or directory in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/options.php on line 17
+[17-Oct-2018 07:02:43 UTC] PHP Warning:  include(): Failed opening '/Applications/MAMP/htdocs/public/wp-content/themes/demoThemedemo-options-view.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php7.2.7/lib/php') in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/options.php on line 17
+[17-Oct-2018 07:03:01 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 6
+[17-Oct-2018 07:03:35 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 07:03:41 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 07:03:44 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 07:03:54 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:03:54 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:05:22 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:05:22 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:06:10 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:06:15 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:06:15 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:01 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:01 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:03 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:03 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:12 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:12 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:16 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:07:16 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:16:11 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:16:11 UTC] PHP Notice:  Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in /Applications/MAMP/htdocs/public/wp-includes/functions.php on line 3984
+[17-Oct-2018 07:19:53 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 07:22:40 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 07:22:46 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 07:25:39 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[17-Oct-2018 08:37:40 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[06-Nov-2018 02:10:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /Applications/MAMP/htdocs/public/wp-includes/class-wp-image-editor-gd.php on line 185
+[06-Nov-2018 02:11:56 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
+[06-Nov-2018 02:13:28 UTC] PHP Notice:  Undefined variable: value in /Applications/MAMP/htdocs/public/wp-content/themes/demoTheme/demo-options-view.php on line 5
