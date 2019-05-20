@@ -2,7 +2,7 @@
 
 Simple setup for WordPress local development testing.
 
-**Depedencies:**
+**Dependencies:**
 
 [Homebrew](https://docs.brew.sh/Installation), [PHPUnit](https://phpunit.de/getting-started/phpunit-8.html), [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer), [WP CLI](https://wp-cli.org/#installing), [XDebug](https://xdebug.org/docs/install), [Visual Studio Code](https://code.visualstudio.com/), [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
 
