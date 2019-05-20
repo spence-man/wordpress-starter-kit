@@ -1,4 +1,5 @@
 vendor/
+.DS_Store
 
 # Wordpress files #
 ###################
@@ -9,3 +10,6 @@ debug.log
 wordpress/wp-config.php
 wp-config-sample.php
 etc/secrets.txt
+dbpass.txt
+admin_password.txt
+

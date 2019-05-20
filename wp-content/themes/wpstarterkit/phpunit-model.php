@@ -26,3 +26,32 @@ class FF_PHPUnit_Model
         'cost' => '99',
     ];
 }
+
+
+// fwrite( STDERR, print_r( $post, true ) );
+// (
+//     [ID] => 14
+//     [post_author] => 0
+//     [post_date] => 2019-05-19 08:41:40
+//     [post_date_gmt] => 2019-05-19 08:41:40
+//     [post_content] => Post content 48
+//     [post_title] => Post title 48
+//     [post_excerpt] => Post excerpt 48
+//     [post_status] => publish
+//     [comment_status] => open
+//     [ping_status] => open
+//     [post_password] =>
+//     [post_name] => post-title-48
+//     [to_ping] =>
+//     [pinged] =>
+//     [post_modified] => 2019-05-19 08:41:40
+//     [post_modified_gmt] => 2019-05-19 08:41:40
+//     [post_content_filtered] =>
+//     [post_parent] => 0
+//     [guid] => http://localhost:8222/?p=14
+//     [menu_order] => 0
+//     [post_type] => post
+//     [post_mime_type] =>
+//     [comment_count] => 0
+//     [filter] => raw
+// )

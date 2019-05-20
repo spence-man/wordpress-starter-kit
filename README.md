@@ -4,7 +4,7 @@ Simple setup for WordPress local development testing.
 
 **Dependencies:**
 
-[Homebrew](https://docs.brew.sh/Installation), [PHPUnit](https://phpunit.de/getting-started/phpunit-8.html), [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer), [WP CLI](https://wp-cli.org/#installing), [XDebug](https://xdebug.org/docs/install), [Visual Studio Code](https://code.visualstudio.com/), [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
+[Homebrew](https://docs.brew.sh/Installation), [PHPUnit](https://make.wordpress.org/core/handbook/testing/automated-testing/phpunit/), [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer), [WP CLI](https://wp-cli.org/#installing), [XDebug](https://xdebug.org/docs/install), [Visual Studio Code](https://code.visualstudio.com/), [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/download/)
 
 [See Wiki](https://github.com/spence-man/wordpress-starter-kit/wiki/Dependencies) to install dependencies.
 
@@ -16,19 +16,25 @@ Simple setup for WordPress local development testing.
 git clone https://github.com/spence-man/wordpress-starter-kit
 cd /wordpress-starter-kit
 openssl rand -base64 12 >> dbpass.txt
+openssl rand -base64 12 >> adminpass.txt
 ```
 **DB**
 ```
 mysql -uroot -proot
 CREATE DATABASE wordpress_dev;
-GRANT ALL PRIVILEGES ON wordpress_dev.* TO “wordpress_user”@“localhost" IDENTIFIED BY "dbpass";
+GRANT ALL PRIVILEGES ON wordpress_dev.* TO "wordpress_user"@"localhost" IDENTIFIED BY "dbpass";
 FLUSH PRIVILEGES;
 EXIT;
 ```
 **WordPress Init**
 ```
-wp config create --dbname=wordpress_dev --dbuser=wordpress_user --dbhost=localhost:8222 --prompt=dbpass < dbpass.txt
-wp core install --url=http://localhost:8222/ --title=Wordpress-Dev --admin_user=wordpress-user --admin_password=password --admin_email=example@example.com
+wp config create --dbname=wordpress_dev --dbuser=wordpress_user --dbhost=127.0.0.1:3306 --prompt=dbpass < dbpass.txt --extra-php <<PHP
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+PHP
+
+wp core install --url=http://localhost:8222/ --title=Wordpress-Dev --admin_user=wordpress-user --admin_email=info@example.com --prompt=admin_password < admin_password.txt
+wp theme activate wpstarterkit
 
 # Make Executable
 chmod +x run.sh
@@ -39,17 +45,23 @@ bash run.sh
 php -S localhost:8222 -t ./wordpress
 ```
 
+http://127.0.0.1:8222
+
 **PHPUnit & WordPress**
 ```
-# Desired theme & plugin to test
-wp scaffold theme-tests wpstarterkit
-wp scaffold plugin-tests my-plugin
-
+cd wp-content/themes/wpstarterkit
 # This will create a separate test db
 bash bin/install-wp-tests.sh wordpress_dev_test root '' 127.0.0.1:3306 latest
 
 # Run tests
 phpunit
+```
+
+Setup additional tests
+```
+# Desired theme & plugin to test
+wp scaffold theme-tests some-theme
+wp scaffold plugin-tests some-plugin
 ```
 From WordPress CLI [handbook](https://make.wordpress.org/cli/handbook/plugin-unit-tests/)
 
