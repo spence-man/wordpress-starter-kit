@@ -5,6 +5,15 @@
  * @package Newtheme
  */
 
+ /**
+ * OUTPUT VARS WHEN RUNNING PHPUNIT
+ *
+ * phpunit --debug
+ * var_dump(self::$post_object->post_title);
+ *
+ * fwrite( STDERR, print_r( $post_example, true ) );
+ */
+
 require get_template_directory() . '/phpunit-model.php';
 
 class SampleTest extends WP_UnitTestCase
@@ -23,8 +32,6 @@ class SampleTest extends WP_UnitTestCase
         $user_id = self::factory()->user->create(array(
             'role' => 'editor',
         ));
-
-        var_dump(self::$post_object);
         $this->assertTrue(user_can($user_id, 'edit_others_posts'));
     }
 
@@ -99,37 +106,6 @@ class SampleTest extends WP_UnitTestCase
             ${'post' . $i} = $this->factory()->post->create_and_get();
             $courses[] = ${'post' . $i};
         }
-        var_dump(self::$post_object->post_title);
-        //fwrite( STDERR, print_r( $post0, true ) );
-        //var_dump( 'HI!' );
         $this->assertTrue(true);
     }
 }
-
-// fwrite( STDERR, print_r( $post, true ) );
-// (
-//     [ID] => 14
-//     [post_author] => 0
-//     [post_date] => 2019-05-19 08:41:40
-//     [post_date_gmt] => 2019-05-19 08:41:40
-//     [post_content] => Post content 48
-//     [post_title] => Post title 48
-//     [post_excerpt] => Post excerpt 48
-//     [post_status] => publish
-//     [comment_status] => open
-//     [ping_status] => open
-//     [post_password] =>
-//     [post_name] => post-title-48
-//     [to_ping] =>
-//     [pinged] =>
-//     [post_modified] => 2019-05-19 08:41:40
-//     [post_modified_gmt] => 2019-05-19 08:41:40
-//     [post_content_filtered] =>
-//     [post_parent] => 0
-//     [guid] => http://localhost:8222/?p=14
-//     [menu_order] => 0
-//     [post_type] => post
-//     [post_mime_type] =>
-//     [comment_count] => 0
-//     [filter] => raw
-// )
