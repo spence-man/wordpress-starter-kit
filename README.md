@@ -68,7 +68,7 @@ From WordPress CLI [handbook](https://make.wordpress.org/cli/handbook/plugin-uni
 - `wordpress/wp-content/themes/wpstarterkit/tests/test-resources.php` contains various examples of unit test methods
 
 #### Resources
-[Helpful Snippets](https://github.com/spence-man/wordpress-starter-kit/wiki/Additional-Dev-Snippets)
+[Helpful Snippets](https://github.com/spence-man/wordpress-starter-kit/wiki/Helpful-Snippets)
 
 [Unit Testing links & more](https://github.com/spence-man/wordpress-starter-kit/wiki/Resources)
 #### Troubleshoot
