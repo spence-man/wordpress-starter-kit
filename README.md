@@ -21,7 +21,7 @@ openssl rand -base64 12 >> dbpass.txt
 ```
 mysql -uroot -proot
 CREATE DATABASE wordpress_dev;
-GRANT ALL PRIVILEGES ON wordpress_dev.* TO “wordpress_user”@“localhost" IDENTIFIED BY "dbpass";
+GRANT ALL PRIVILEGES ON wordpress_dev.* TO "wordpress_user"@"localhost" IDENTIFIED BY "dbpass";
 FLUSH PRIVILEGES;
 EXIT;
 ```
